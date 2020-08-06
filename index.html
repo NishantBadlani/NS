@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/app.css">
+  <script src="https://kit.fontawesome.com/4b264e8fa8.js" crossorigin="anonymous"></script>
+  <title>Movies Corner</title>
+</head>
+
+<body>
+
+  <header>    
+    <nav>      
+      <div class="nav-container">
+        <div class="nav-img nav-items">
+          <!-- IMAGE -->
+          <a href="">
+            <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEDG3g56WfYNSRms4KYZnji4CQqpqeCbaWAQ&usqp=CAU" 
+            alt="" height="100%" width="80%">
+          </a>
+        </div>
+        <div class="nav-dropdowns nav-items">
+          <!-- DROPDOWNS START-->
+          <div class="dd">
+            <button onclick="showContent(event)" class="dd-btn">
+              Browse Titles 
+              <i class="fas fa-angle-down"></i> 
+            </button>
+            <ul class="dd-content" style="list-style-type: none;">
+              <li><a href="">Link#1</a></li>
+              <li><a href="">Link#2</a></li>
+              <li><a href="">Link#3</a></li>
+            </ul>
+          </div>
+          <div class="dd">
+            <button onclick="showContent(event)" class="dd-btn">
+              Movies
+              <i class="fas fa-angle-down"></i>
+            </button>
+            <ul class="dd-content" style="list-style-type: none;">
+              <li><a href="">Link#1</a></li>
+              <li><a href="">Link#2</a></li>
+              <li><a href="">Link#3</a></li>
+            </ul>
+          </div>
+          <div class="dd">
+            <button onclick="showContent(event)" class="dd-btn">
+              TV Series
+              <i class="fas fa-angle-down"></i>
+            </button>
+            <ul class="dd-content" style="list-style-type: none;">
+              <li><a href="">TV Series</a></li>
+              <li><a href="">Link#1</a></li>
+              <li><a href="">Link#2</a></li>
+              <li><a href="">Link#3</a></li>
+            </ul>
+          </div>
+          <div class="dd">
+            <button onclick="showContent(event)" class="dd-btn">
+              Top 100
+              <i class="fas fa-angle-down"></i>
+            </button>
+            <ul class="dd-content" style="list-style-type: none;">
+              <li><a href="">Link#1</a></li>
+              <li><a href="">Link#2</a></li>
+              <li><a href="">Link#3</a></li>
+            </ul>
+            <!-- DROPDOWNS END-->
+          </div>
+        </div>
+        <div class="nav-enter nav-items">
+          <!-- Enter Site -->
+          <div class="enter">
+            <button class="dd-btn">Enter</button>
+          </div>
+        </div>
+      </div>     
+    </nav>
+
+    <div>
+      <form action="#" class="search-bar">
+        <div class="search-bar-items">
+          <select name="media-type">
+            <option value="movie">MOVIES</option>
+            <option value="tv">TV SHOW</option>
+            <option value="documentry">DOCUMENTRY</option>          
+          </select>
+        </div>
+        <div class="search-bar-items">
+          <input type="text" placeholder="Search for a title you are looking for...">
+          <span><i class="fas fa-search" style="position: relative; left: 30px;"></i></span>
+        </div>        
+      </form>
+    </div>
+
+  </header>
+  
+  <section class="section-1">
+    <p style="color: white;">IN THEATER</p>
+    <div class="nav-theatre">      
+      <a href="#">#POPULAR</a>
+      <a href="#">#COMING SOON</a>
+      <a href="#">#TOP RATED</a>
+      <a href="#">#MOST REVIEWED</a>
+    </div>
+    <div class="titles-theatre">
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <p style="color: white;">ON TV</p>
+    <div class="nav-tv">      
+      <a href="#">#POPULAR</a>
+      <a href="#">#COMING SOON</a>
+      <a href="#">#TOP RATED</a>
+      <a href="#">#MOST REVIEWED</a>
+    </div>
+    <div class="titles-theatre">
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+      <div class="titles-theatre-items">
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b0/Avatar-Teaser-Poster.jpg/220px-Avatar-Teaser-Poster.jpg" alt="" height="100%" width="100%">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="flex-container-footer">
+      <div>
+        <a href="#"><strong>Resources</strong></a>
+        <hr class="hr-line">
+        <a href="#">About</a>
+        <a href="#">Blockbuster</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Forums</a>
+        <a href="#">Blog</a>
+        <a href="#">Help Center</a>
+      </div>
+      <div>
+        <a href="#"><strong>Legal</strong></a>
+        <hr class="hr-line">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Security</a>
+      </div>
+      <div>
+        <a href="#"><strong>Account</strong></a>
+        <hr class="hr-line">
+        <a href="#">My Account</a>
+        <a href="#">Watchlist</a>
+        <a href="#">Collections</a>
+        <a href="#">User Guide</a>
+      </div>
+      <div>
+        <a href="#"><strong>Newsletter</strong></a>
+        <hr class="hr-line">
+        <p style="color: white;">Subscribe to our newsletter system now to get latest new from us.</p>
+        <input type="email">
+        <br>
+        <a href="#"><strong style="color: #dd003f;">SUBSCRIBE NOW</strong></a>
+      </div>
+    </div>
+  </footer>
+
+  <hr class="hr-line">
+
+  <script src="JavaScript/app.js"></script>
+</body>
+</html>
